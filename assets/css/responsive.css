@@ -1,0 +1,198 @@
+/*==================================================
+   IRONVALE INDUSTRIAL - RESPONSIVE STYLES
+==================================================*/
+
+/* Desktop (Large) */
+@media (max-width: 1399px) {
+    .hero-title {
+        font-size: 4.5rem;
+    }
+}
+
+/* Laptop / Desktop (Medium) */
+@media (max-width: 1199px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+    
+    .section-title {
+        font-size: 42px;
+    }
+    
+    .project-img {
+        height: 350px;
+    }
+}
+
+/* Tablet (Portrait & Landscape) */
+@media (max-width: 991px) {
+    .main-header {
+        top: 0;
+        background-color: var(--primary);
+    }
+    
+    .navbar-brand .logo-bold {
+        font-size: 24px;
+    }
+    
+    .navbar-brand .logo-light {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    
+    .hero-section {
+        min-height: 600px;
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+    }
+    
+    .hero-desc {
+        font-size: 1.1rem;
+    }
+    
+    .quick-search-section {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    
+    .search-panel {
+        padding: 30px 20px;
+    }
+    
+    .py-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .section-title {
+        font-size: 36px;
+    }
+    
+    .stat-number {
+        font-size: 48px;
+    }
+    
+    .about-image-wrapper {
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 30px;
+    }
+    
+    .vertical-orange-line {
+        display: none;
+    }
+    
+    .timeline-line {
+        display: none !important;
+    }
+    
+    .step-item {
+        margin-bottom: 40px;
+    }
+    
+    .project-row .row {
+        flex-direction: column;
+    }
+    
+    .project-row .col-md-6 {
+        width: 100%;
+        text-align: left !important;
+    }
+    
+    .project-details {
+        justify-content: flex-start !important;
+    }
+}
+
+/* Mobile (Large) */
+@media (max-width: 767px) {
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    .hero-desc {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .hero-btns .btn {
+        display: block;
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    
+    .section-title {
+        font-size: 32px;
+    }
+    
+    .card-img-wrap img {
+        height: 200px;
+    }
+    
+    .featured-img {
+        min-height: 300px !important;
+    }
+    
+    .featured-content {
+        padding: 30px !important;
+    }
+    
+    .filter-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-btn {
+        padding: 10px;
+        background: var(--white);
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+    }
+    
+    .filter-btn::after {
+        display: none;
+    }
+    
+    .filter-btn.active {
+        background: var(--primary);
+        color: var(--white);
+        border-color: var(--primary);
+    }
+    
+    .prop-img-wrap img {
+        height: 240px;
+    }
+    
+    .stats-section .row > div {
+        margin-bottom: 30px;
+    }
+    
+    .contact-form-wrap {
+        padding: 30px 20px !important;
+    }
+    
+    .contact-info {
+        padding: 30px 20px !important;
+    }
+}
+
+/* Mobile (Small) */
+@media (max-width: 575px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .client-logo {
+        font-size: 16px;
+    }
+    
+    .testimonial-text {
+        font-size: 1.25rem !important;
+    }
+}
