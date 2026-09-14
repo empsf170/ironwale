@@ -485,6 +485,8 @@ h1, h2, h3, h4, h5, h6, .font-barlow {
     transition: var(--transition-base);
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-img-wrap {
@@ -527,6 +529,9 @@ h1, h2, h3, h4, h5, h6, .font-barlow {
     padding: 50px 30px 30px;
     position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .card-icon {
@@ -556,6 +561,7 @@ h1, h2, h3, h4, h5, h6, .font-barlow {
     align-items: center;
     justify-content: center;
     transition: var(--transition-fast);
+    margin-top: auto;
 }
 
 .card-link i {
@@ -696,6 +702,11 @@ h1, h2, h3, h4, h5, h6, .font-barlow {
     color: var(--accent);
     text-decoration: none;
     letter-spacing: 1px;
+    transition: var(--transition-fast);
+}
+
+.prop-link:hover {
+    color: #000 !important;
 }
 
 .property-card:hover {
